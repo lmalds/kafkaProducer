@@ -45,7 +45,6 @@ class TransactionProducer extends Runnable{
           }
 
           producer.send(data,callBackNew)
-          println(data.toString)
         }
       }
 
